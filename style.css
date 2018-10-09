@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pesan {
+    float: left;
+    width: 400px;
+    height: 100vh;
+    background: #76d275;
+    overflow-y: auto;
+}
+
+#map {
+    float: left;
+    width: calc(100% - 400px);
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.inner {
+    padding: 10px;
+}
+
+#detail {
+    display: none;
+    margin-top: 50px;
+}
+
+#detail th, #detail td {
+    padding: 10px;
+}
+
+.card-custom {
+	background-color: #fff;
+	padding: 10px 15px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+#pesan-btn {
+    display: block;
+    margin: auto;
+}
